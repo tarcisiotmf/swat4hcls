@@ -1,8 +1,10 @@
 # Data in use for Alzheimer disease study: combining gene expression, orthology, bioresource and disease datasets
 
-## Federated query
-Expected runtime: 10 minutes
+The queries below can be executed at https://knowledge.brc.riken.jp/bioresource/sparql.
 
+## Federated query
+**Expected runtime: 10 minutes**
+[SPARQL query file](federated_query.rq) 
 ```
 PREFIX brso: <http://purl.jp/bio/10/brso/>
 PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
@@ -20,7 +22,7 @@ PREFIX bgee: <http://bgee.org/#>
 
 SELECT distinct ?mouse ?homepage_mouse ?ensembl2
 WHERE {
-   service <https://bgee.org/sparql/> {
+   SERVICE <https://bgee.org/sparql/>{
       ?oma_gene2 a orth:Gene .
       ?oma_gene2 lscr:xrefEnsemblGene ?ensembl2.
       ?oma_gene2 orth:organism/obo:RO_0002162 taxon:9606 .
@@ -75,7 +77,8 @@ WHERE {
 ```
 
 ## Centralised query
-
+**Expected runtime: 40 seconds**
+[SPARQL query file](centralised_query.rq) 
 ```
 PREFIX brso: <http://purl.jp/bio/10/brso/>
 PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
