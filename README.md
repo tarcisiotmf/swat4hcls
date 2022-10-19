@@ -153,4 +153,4 @@ WHERE {
 
 
 ## License
-This repository are under [CC0 1.0 Universal](https://creativecommons.org/publicdomain/zero/1.0/).
+This repository is under [CC0 1.0 Universal](https://creativecommons.org/publicdomain/zero/1.0/).
