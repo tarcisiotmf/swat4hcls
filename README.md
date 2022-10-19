@@ -4,6 +4,7 @@ The queries below can be executed at https://knowledge.brc.riken.jp/bioresource/
 
 ## Federated query
 **Expected runtime: 10 minutes**
+
 [SPARQL query file](federated_query.rq) 
 ```
 PREFIX brso: <http://purl.jp/bio/10/brso/>
@@ -78,6 +79,7 @@ WHERE {
 
 ## Centralised query
 **Expected runtime: 40 seconds**
+
 [SPARQL query file](centralised_query.rq) 
 ```
 PREFIX brso: <http://purl.jp/bio/10/brso/>
