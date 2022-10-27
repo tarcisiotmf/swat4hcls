@@ -2,8 +2,14 @@
 
 The queries below can be executed at https://knowledge.brc.riken.jp/bioresource/sparql.
 
+**Table 1.** Query execution time of the federated vs centralised approach.
+| Query approach | Mean (seconds) | Standard deviation | Number of results |  
+|---|---|---|---|
+| [centralised](centralised_query.rq) | 25.93 | 0.91 | 8 |
+| [federated](federated_query.rq) | 59.98 | 6.78 | 20 |
+
 ## Federated query
-**Expected runtime: 65 seconds**
+**Expected runtime: 60 seconds**
 
 [SPARQL query file](federated_query.rq) 
 ```
