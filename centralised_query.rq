@@ -15,7 +15,6 @@ WHERE {
     ?oma_gene2 a orth:Gene .
     ?oma_gene2 lscr:xrefEnsemblGene ?ensembl2 .
     ?oma_gene2 orth:organism/obo:RO_0002162 taxon:9606 . # human
-    ?oma_gene2 genex:isExpressedIn ?cond .
     ?cond genex:hasAnatomicalEntity obo:UBERON_0000451 . # prefrontal cortex
     ?expr genex:hasExpressionCondition ?cond .
     ?expr genex:hasSequenceUnit ?oma_gene2 .
