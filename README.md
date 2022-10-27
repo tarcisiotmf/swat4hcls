@@ -1,8 +1,8 @@
 # Data in use for Alzheimer disease study: combining gene expression, orthology, bioresource and disease datasets
 
-The queries below can be executed at https://knowledge.brc.riken.jp/bioresource/sparql.
+The queries below can be executed at the SPARQL endpoint https://knowledge.brc.riken.jp/sparql.
 
-**Table 1.** Query execution time of the federated vs centralised approach.
+**Table 1.** The query execution time of the federated vs centralised approaches. The queries were executed 10 times each at https://knowledge.brc.riken.jp/sparql.
 | Query approach | Mean (seconds) | Standard deviation | Number of results |  
 |---|---|---|---|
 | [centralised](centralised_query.rq) | 25.93 | 0.91 | 8 |
