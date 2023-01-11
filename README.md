@@ -1,5 +1,17 @@
 # Data in use for Alzheimer disease study: combining gene expression, orthology, bioresource and disease datasets
 
+## How to cite this work?
+
+Mendes de Farias T, Kushida T, Sima AC,Dessimoz C,Chiba H, Bastian F, Masuya H. Data in use for Alzheimer disease study: combining gene 
+expression, orthology, bioresource and disease datasets. In: To appear in proceedings of the 14th International Semantic Web Applications and Tools for Healthcare and Life 
+Sciences (SWAT4HCLS) Conference CEUR-WS; 2023.
+
+## Introduction 
+
+This repository contains the supplementary material to the [short paper](SWAT4HCLS_2023___Data_in_use_for_Alzheimer.pdf).
+
+## Supplementary material description
+
 The queries below can be executed at the SPARQL endpoint https://knowledge.brc.riken.jp/sparql.
 
 **Table 1.** The query execution time of the federated vs centralised approaches. The queries were executed 10 times each at https://knowledge.brc.riken.jp/sparql.
