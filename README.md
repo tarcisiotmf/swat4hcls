@@ -2,9 +2,8 @@
 
 ## How to cite this work?
 
-Mendes de Farias T, Kushida T, Sima AC,Dessimoz C,Chiba H, Bastian F, Masuya H. Data in use for Alzheimer disease study: combining gene 
-expression, orthology, bioresource and disease datasets. In: To appear in proceedings of the 14th International Semantic Web Applications and Tools for Healthcare and Life 
-Sciences (SWAT4HCLS) Conference CEUR-WS; 2023.
+Mendes de Farias T, Kushida T, Sima AC,Dessimoz C,Chiba H, Bastian F, Masuya H (2023, February). Data in use for Alzheimer disease study: combining gene 
+expression, orthology, bioresource and disease datasets. In Proceedings of the 14th International Semantic Web Applications and Tools for Healthcare and Life Sciences (SWAT4HCLS) Conference (Vol. 3415). CEUR-WS. 
 
 ## Introduction 
 
